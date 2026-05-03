@@ -84,4 +84,4 @@ echo "Keep support HACKTECHTV CHANNEL thank you"
 echo "Wait 2 minute to finish the setup then Run using RDP Address"
 echo "===================================="
 
-docker run --rm -p 3388:3389 danielguerra/ubuntu-xrdp:kali
+docker run --rm -p 3388:3389 danielguerra/ubuntu-xrdp:kali > /dev/null 2>&1
