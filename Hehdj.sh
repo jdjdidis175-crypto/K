@@ -66,7 +66,7 @@ read -p "Choose region: " REG
 echo "===================================="
 echo "Install RDP (Docker)"
 echo "===================================="
-docker pull danielguerra/ubuntu-xrdp:kali > /dev/null 2>&1
+docker pull danielguerra/ubuntu-xrdp > /dev/null 2>&1
 clear
 
 echo "===================================="
